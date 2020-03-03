@@ -14,6 +14,7 @@
   "skipOnEnvInstall": true,
   "extraNodes": {
     "nodeGroup": "das",
+    "isRemovable": false,
     "nodeType": "${clusterNode.nodeType}",
     "fixedCloudlets": "${clusterNode.fixedCloudlets}",
     "flexibleCloudlets": "${clusterNode.flexibleCloudlets}",
